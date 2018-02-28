@@ -1,0 +1,16 @@
+.book.with-summary .book-summary {
+    background-color: #3e424b;
+    left: 0;
+}
+ul.summary li a {
+    color: #fff!important;
+    font-size: 15px;
+    font-family: Roboto,sans-serif;
+}
+#book-search-input {
+    background-color: #3e424b!important;
+    color: #fff;
+}
+.book-header .btn.lang-switcher.active {
+    background-color: #3e424b!important;
+}
