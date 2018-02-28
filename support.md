@@ -9,7 +9,7 @@ Get a list of your threads.
 
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v -b 'cpa_sid=s%3A7OKmdhfZr6qJ_H5OWLKJCRWfyoWAtm6q.yzfCuK0Flvj5xW8UlRES3JTyZNMGLhiTF8aPEZ3MFOo' 'https://dashboard.everad.com/v2/threads'
+curl -X GET -v -b 'cpa_sid=s%3A7OKmdhfZr6qJ_H5OWLKJCRWfyoWAtm6q.yzfCuK0Flvj5xW8UlRES3JTyZNMGLhiTF8aPEZ3MFOo' 'https://dashboard.rocketprofit.com/v2/threads'
 ```
 ######success response
 ```
@@ -36,7 +36,7 @@ curl -X GET -v -b 'cpa_sid=s%3A7OKmdhfZr6qJ_H5OWLKJCRWfyoWAtm6q.yzfCuK0Flvj5xW8U
 Get posts within a thread by its id.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v -b 'cpa_sid=s%3A09OpKmlx3UY73RKvuKH1-KpaorJNxuwN.GMThTayHUQ0kjmztr4Gf4xIjrs%2FQcJXJAzTabTELFuM' 'https://dashboard.everad.com/v2/threads/2'
+curl -X GET -v -b 'cpa_sid=s%3A09OpKmlx3UY73RKvuKH1-KpaorJNxuwN.GMThTayHUQ0kjmztr4Gf4xIjrs%2FQcJXJAzTabTELFuM' 'https://dashboard.rocketprofit.com/v2/threads/2'
 ```
 ######success response
 ```
@@ -91,7 +91,7 @@ curl -X GET -v -b 'cpa_sid=s%3A09OpKmlx3UY73RKvuKH1-KpaorJNxuwN.GMThTayHUQ0kjmzt
 Create a thread.
 {% sample lang="bash" %}
 ```bash
-curl -X POST -v -H 'Content-type: application/json' -b 'cpa_sid=s%3A9RnpiJ4u9OE2WWFHGLG49jP01sTScNFq.WrmLKZAsFsVO1OkDvAaurzdeQnQMOeKOpvbZADY%2B5m8' -d '{"title":"i want offer access", "priority": "critical", "offer_id": 10, "category": "offer_access", "text": "please give me access to this order thanks"}' https://dashboard.everad.com/v2/threads
+curl -X POST -v -H 'Content-type: application/json' -b 'cpa_sid=s%3A9RnpiJ4u9OE2WWFHGLG49jP01sTScNFq.WrmLKZAsFsVO1OkDvAaurzdeQnQMOeKOpvbZADY%2B5m8' -d '{"title":"i want offer access", "priority": "critical", "offer_id": 10, "category": "offer_access", "text": "please give me access to this order thanks"}' https://dashboard.rocketprofit.com/v2/threads
 ```
 ######success response
 ```
@@ -132,7 +132,7 @@ curl -X POST -v -H 'Content-type: application/json' -b 'cpa_sid=s%3A9RnpiJ4u9OE2
 Create a post in a thread.
 {% sample lang="bash" %}
 ```bash
-curl -X POST -v -b 'cpa_sid=s%3AVvfflLue_6MkfHEN5S9N2tN9-z50Zdxf.ASQBDXkdlsoRIklt6ltLiEGGdr%2BtawqRF%2BhLX51apbg' 'https://dashboard.everad.com/v2/threads/15' -H 'Content-type: application/json' -d '{ "text": "post text here" }'
+curl -X POST -v -b 'cpa_sid=s%3AVvfflLue_6MkfHEN5S9N2tN9-z50Zdxf.ASQBDXkdlsoRIklt6ltLiEGGdr%2BtawqRF%2BhLX51apbg' 'https://dashboard.rocketprofit.com/v2/threads/15' -H 'Content-type: application/json' -d '{ "text": "post text here" }'
 ```
 ######success response
 ```
@@ -156,7 +156,7 @@ curl -X POST -v -b 'cpa_sid=s%3AVvfflLue_6MkfHEN5S9N2tN9-z50Zdxf.ASQBDXkdlsoRIkl
 Add attachments to thread post.
 {% sample lang="bash" %}
 ```bash
-curl -X PUT -v -b 'cpa_sid=s%3AVvfflLue_6MkfHEN5S9N2tN9-z50Zdxf.ASQBDXkdlsoRIklt6ltLiEGGdr%2BtawqRF%2BhLX51apbg' 'https://dashboard.everad.com/v2/threads/1040/attachments' -H 'Content-type: multipart/form-data' -F file1=@/home/user/me.jpg
+curl -X PUT -v -b 'cpa_sid=s%3AVvfflLue_6MkfHEN5S9N2tN9-z50Zdxf.ASQBDXkdlsoRIklt6ltLiEGGdr%2BtawqRF%2BhLX51apbg' 'https://dashboard.rocketprofit.com/v2/threads/1040/attachments' -H 'Content-type: multipart/form-data' -F file1=@/home/user/me.jpg
 ```
 ######success response
 ```
@@ -168,7 +168,7 @@ curl -X PUT -v -b 'cpa_sid=s%3AVvfflLue_6MkfHEN5S9N2tN9-z50Zdxf.ASQBDXkdlsoRIklt
 Close a thread.
 {% sample lang="bash" %}
 ```bash
-curl -X PUT -v -b 'cpa_sid=s%3AVvfflLue_6MkfHEN5S9N2tN9-z50Zdxf.ASQBDXkdlsoRIklt6ltLiEGGdr%2BtawqRF%2BhLX51apbg' 'https://dashboard.everad.com/v2/threads/15/close'
+curl -X PUT -v -b 'cpa_sid=s%3AVvfflLue_6MkfHEN5S9N2tN9-z50Zdxf.ASQBDXkdlsoRIklt6ltLiEGGdr%2BtawqRF%2BhLX51apbg' 'https://dashboard.rocketprofit.com/v2/threads/15/close'
 ```
 ######success response
 ```

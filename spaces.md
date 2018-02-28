@@ -7,7 +7,7 @@ Manage your traffic sources, used in campaigns.
 List your spaces.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.everad.com/v2/spaces
+curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.rocketprofit.com/v2/spaces
 ```
 ######success response
 ```
@@ -27,7 +27,7 @@ Get space data
 Create a new space.
 {% sample lang="bash" %}
 ```bash
-curl -X POST -H 'Content-type: application/json' -d '{"title":"test space", "type":"social"}' -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.everad.com/v2/spaces
+curl -X POST -H 'Content-type: application/json' -d '{"title":"test space", "type":"social"}' -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.rocketprofit.com/v2/spaces
 ```
 ######success response
 ```
@@ -40,7 +40,7 @@ curl -X POST -H 'Content-type: application/json' -d '{"title":"test space", "typ
 Update a space.
 {% sample lang="bash" %}
 ```bash
-curl -X PUT -H 'Content-type: application/json' -d '{"title":"test space1", "type":"social"}' -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.everad.com/v2/spaces/1
+curl -X PUT -H 'Content-type: application/json' -d '{"title":"test space1", "type":"social"}' -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.rocketprofit.com/v2/spaces/1
 ```
 ######success response
 ```
@@ -53,7 +53,7 @@ curl -X PUT -H 'Content-type: application/json' -d '{"title":"test space1", "typ
 Delete a space.
 {% sample lang="bash" %}
 ```bash
-curl -X DELETE -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.everad.com/v2/spaces/1
+curl -X DELETE -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.rocketprofit.com/v2/spaces/1
 ```
 ######success response
 ```

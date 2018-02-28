@@ -7,7 +7,7 @@ List available offers.
 Get available offers. Availability is marked with an `available` flag. If it's `true` - you can create campaigns with this offer. Otherwise an access request is required (see support section).
 {% sample lang="bash" %}
 ```bash
-curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.everad.com/v2/offers
+curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.rocketprofit.com/v2/offers
 ```
 ######success response
 ```
@@ -62,7 +62,7 @@ Get offer data
 Request offer access. If access is granted, returns `200`, if not - returns `403`. 
 {% sample lang="bash" %}
 ```bash
-curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.everad.com/v2/offers/1/request
+curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.rocketprofit.com/v2/offers/1/request
 ```
 ######success response
 ```
@@ -79,7 +79,7 @@ curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze
 Get offer news.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.everad.com/v2/offers/1/news
+curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.rocketprofit.com/v2/offers/1/news
 ```
 ######success response - same as general news
 
@@ -90,7 +90,7 @@ curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze
 Get offer's statistics by it's locations. Date range is optional, defualt to from -7 days to -1 day
 {% sample lang="bash" %}
 ```bash
-curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.everad.com/v2/offers/1/geo-stats?currency=usd
+curl -X GET -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -v https://dashboard.rocketprofit.com/v2/offers/1/geo-stats?currency=usd
 ```
 ######success response
 ```

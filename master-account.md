@@ -6,7 +6,7 @@ Manage your child accounts (when in master mode)
 Get list of all child affiliate accounts.
 {% sample lang="bash" %}
 ```bash
-curl -v -X GET -b 'cpa_sid=s%3AjqL-ubOG0LAvIsQf2cfHT9EnMvgkLtZH.B4LmgxlrTpnmmHD6VXxVdTbwIkWuZOQ2ZtK1%2FQnMKys' https://dashboard.everad.com/v2/master-account
+curl -v -X GET -b 'cpa_sid=s%3AjqL-ubOG0LAvIsQf2cfHT9EnMvgkLtZH.B4LmgxlrTpnmmHD6VXxVdTbwIkWuZOQ2ZtK1%2FQnMKys' https://dashboard.rocketprofit.com/v2/master-account
 ```
 ######success response
 ```
@@ -20,7 +20,7 @@ curl -v -X GET -b 'cpa_sid=s%3AjqL-ubOG0LAvIsQf2cfHT9EnMvgkLtZH.B4LmgxlrTpnmmHD6
 Get list of child account offer payouts
 {% sample lang="bash" %}
 ```bash
-curl -v -X GET -b 'cpa_sid=s%3AjqL-ubOG0LAvIsQf2cfHT9EnMvgkLtZH.B4LmgxlrTpnmmHD6VXxVdTbwIkWuZOQ2ZtK1%2FQnMKys' https://dashboard.everad.com/v2/master-account/child-offer-payouts/88/1
+curl -v -X GET -b 'cpa_sid=s%3AjqL-ubOG0LAvIsQf2cfHT9EnMvgkLtZH.B4LmgxlrTpnmmHD6VXxVdTbwIkWuZOQ2ZtK1%2FQnMKys' https://dashboard.rocketprofit.com/v2/master-account/child-offer-payouts/88/1
 ```
 ######success response (same as `/offers/<id>` .payouts for your account)
 ```
@@ -43,7 +43,7 @@ N.B. only values from your personal payout settings can be passed.
 
 {% sample lang="bash" %}
 ```bash
-curl -v -X PUT -b 'cpa_sid=s%3AjqL-ubOG0LAvIsQf2cfHT9EnMvgkLtZH.B4LmgxlrTpnmmHD6VXxVdTbwIkWuZOQ2ZtK1%2FQnMKys' -H 'Content-type: application/json' -d '[{"location_id":"2017370", "traffic_type": null, "traffic_source": null, "amount":100}]' https://dashboard.everad.com/v2/master-account/child-offer-payouts/88/1
+curl -v -X PUT -b 'cpa_sid=s%3AjqL-ubOG0LAvIsQf2cfHT9EnMvgkLtZH.B4LmgxlrTpnmmHD6VXxVdTbwIkWuZOQ2ZtK1%2FQnMKys' -H 'Content-type: application/json' -d '[{"location_id":"2017370", "traffic_type": null, "traffic_source": null, "amount":100}]' https://dashboard.rocketprofit.com/v2/master-account/child-offer-payouts/88/1
 ```
 ######success response
 ```

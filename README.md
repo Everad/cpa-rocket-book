@@ -1,10 +1,10 @@
-# Everad CPA v2 Dashboard API
+# RocketProfit CPA v2 Dashboard API
 
-This describes the **API** for managing your affiliate account inside **Everad CPA** application.
+This describes the **API** for managing your affiliate account inside RocketProfit** CPA** application.
 
 API operates on **REST** principles with some deviations described explicitly in method's description.
 
-All incoming data is passed in **JSON** format \(with specified `Content-type: application/json` header)
+All incoming data is passed in **JSON** format \(with specified `Content-type: application/json` header\)
 
 #### Response usable data:
 
@@ -14,7 +14,7 @@ All incoming data is passed in **JSON** format \(with specified `Content-type: a
 
 #### Base url
 
-`https://dashboard.everad.com/v2`
+`https://dashboard.rocketprofit.com/v2`
 
 #### Methods available:
 
@@ -24,7 +24,7 @@ All incoming data is passed in **JSON** format \(with specified `Content-type: a
 
 `/profile` - manage profile data \(contacts, payments, language info\).
 
-`/finances` - manage your finances (daily transactions, payouts).
+`/finances` - manage your finances \(daily transactions, payouts\).
 
 `/news` - fetch current news.
 
@@ -40,9 +40,7 @@ All incoming data is passed in **JSON** format \(with specified `Content-type: a
 
 `/lookups` - lookup for data by partial name
 
-`/master-account` - manage your children account preferences (if your account is in `master` mode)
+`/master-account` - manage your children account preferences \(if your account is in `master` mode\)
 
 `/oauth` - authorize third-party systems with password grant oauth2 mechanism
-
-
 

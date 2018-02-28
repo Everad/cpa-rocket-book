@@ -8,7 +8,7 @@ Use `?lang=ru` or `?lang=en` query parameters in the URL to explicitly request l
 Use this endpoint to get all non-persionalized lists with one request
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/
 ```
 ######success response
 ```
@@ -21,7 +21,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/
 Retrieve available response languages.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/languages
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/languages
 ```
 ######success response
 ```
@@ -34,7 +34,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/languages
 Retrieve possible space types.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/space-types
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/space-types
 ```
 ######success response
 ```
@@ -47,7 +47,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/space-types
 Retrieve possible offer categories.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/offer-categories
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/offer-categories
 ```
 ######success response
 ```
@@ -60,7 +60,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/offer-categories
 Retrieve all currencies.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/currencies
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/currencies
 ```
 ######success response
 ```
@@ -73,7 +73,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/currencies
 Retrieve available currencies.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/available-currencies
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/available-currencies
 ```
 ######success response
 ```
@@ -86,7 +86,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/available-currencies
 `adv_system` - one of `/lists/adv-systems`
 {% sample lang="bash" %}
 ```bash
-curl -X GET -b 'connect.sid=s%3AWt1ZtB7mMKQCcTAVs7_iPVQ5-EU6o_0Q.0aMir6l0Raw%2BCJrZYPoAWQM1ATFWhUX2VxgYL%2FuqEy0' -v https://dashboard.everad.com/v2/lists/campaign-domains?adv_system=other
+curl -X GET -b 'connect.sid=s%3AWt1ZtB7mMKQCcTAVs7_iPVQ5-EU6o_0Q.0aMir6l0Raw%2BCJrZYPoAWQM1ATFWhUX2VxgYL%2FuqEy0' -v https://dashboard.rocketprofit.com/v2/lists/campaign-domains?adv_system=other
 ```
 ######success response
 ```
@@ -99,7 +99,7 @@ curl -X GET -b 'connect.sid=s%3AWt1ZtB7mMKQCcTAVs7_iPVQ5-EU6o_0Q.0aMir6l0Raw%2BC
 Retrieve possible offer domain types.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/offer-domain-types
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/offer-domain-types
 ```
 ######success response
 ```
@@ -112,7 +112,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/offer-domain-types
 Retrieve possible system timezones.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/timezones
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/timezones
 ```
 ######success response
 ```
@@ -125,7 +125,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/timezones
 Retrieve possible system traffic types.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/traffic-types?lang=ru
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/traffic-types?lang=ru
 ```
 ######success response
 ```
@@ -138,7 +138,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/traffic-types?lang=ru
 Retrieve possible system traffic sources.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/traffic-sources?lang=ru
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/traffic-sources?lang=ru
 ```
 ######success response
 ```
@@ -151,7 +151,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/traffic-sources?lang=ru
 Retrieve possible system campaign types.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/campaign-types?lang=ru
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/campaign-types?lang=ru
 ```
 ######success response
 ```
@@ -165,7 +165,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/campaign-types?lang=ru
 Retrieve possible news types.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/news-types?lang=ru
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/news-types?lang=ru
 ```
 ######success response
 ```
@@ -178,7 +178,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/news-types?lang=ru
 Retrieve possible payout statuses.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/payout-statuses?lang=ru
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/payout-statuses?lang=ru
 ```
 ######success response
 ```
@@ -191,7 +191,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/payout-statuses?lang=ru
 Retrieve possible support thread statuses.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/thread-statuses?lang=ru
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/thread-statuses?lang=ru
 ```
 ######success response
 ```
@@ -204,7 +204,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/thread-statuses?lang=ru
 Retrieve possible support thread priorities.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/thread-priorities?lang=ru
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/thread-priorities?lang=ru
 ```
 ######success response
 ```
@@ -218,7 +218,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/thread-priorities?lang=ru
 Retrieve possible support thread categories.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/thread-categories?lang=ru
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/thread-categories?lang=ru
 ```
 ######success response
 ```
@@ -231,7 +231,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/thread-categories?lang=ru
 Retrieve possible payout credential fields.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/payout-credential-fields?lang=ru
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/payout-credential-fields?lang=ru
 ```
 ######success response
 ```
@@ -244,7 +244,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/payout-credential-fields?la
 Retrieve possible domain types to be used in campaign creation/editing.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/campaign-domain-types
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/campaign-domain-types
 ```
 ######success response
 ```
@@ -257,7 +257,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/campaign-domain-types
 Retrieve possible advertising systems to be used in campaign creation/editing.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/campaign-domain-types
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/campaign-domain-types
 ```
 ######success response
 ```
@@ -270,7 +270,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/campaign-domain-types
 Retrieve possible advertising systems to be used in campaign creation/editing.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/campaign-domain-types
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/campaign-domain-types
 ```
 ######success response
 ```
@@ -283,7 +283,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/campaign-domain-types
 Get landings snippets list to be used in campaign creation/editing. Available for active session only.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v -b 'cpa_sid=s%3AWt1ZtB7mMKQCcTAVs7_iPVQ5-EU6o_0Q.0aMir6l0Raw%2BCJrZYPoAWQM1ATFWhUX2VxgYL%2FuqEy0' https://dashboard.everad.com/v2/lists/landings-snippets
+curl -X GET -v -b 'cpa_sid=s%3AWt1ZtB7mMKQCcTAVs7_iPVQ5-EU6o_0Q.0aMir6l0Raw%2BCJrZYPoAWQM1ATFWhUX2VxgYL%2FuqEy0' https://dashboard.rocketprofit.com/v2/lists/landings-snippets
 ```
 ######success response
 ```
@@ -296,7 +296,7 @@ curl -X GET -v -b 'cpa_sid=s%3AWt1ZtB7mMKQCcTAVs7_iPVQ5-EU6o_0Q.0aMir6l0Raw%2BCJ
 Retrieve top 100 contest users.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/contest-top
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/contest-top
 ```
 ######success response
 ```

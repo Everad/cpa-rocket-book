@@ -13,7 +13,7 @@ timezone - one from `/lists/timezones`
 ```
 {% sample lang="bash" %}
 ```bash
-curl -X POST -H 'Content-type: application/json' -d '{"email":"test2@example.com", "password":"1", "language":"ru"}' -v https://dashboard.everad.com/v2/session
+curl -X POST -H 'Content-type: application/json' -d '{"email":"test2@example.com", "password":"1", "language":"ru"}' -v https://dashboard.rocketprofit.com/v2/session
 ```
 ######success response
 ```
@@ -31,7 +31,7 @@ curl -X POST -H 'Content-type: application/json' -d '{"email":"test2@example.com
 Login to your already registered account.
 {% sample lang="bash" %}
 ```bash
-curl -X PUT -H 'Content-type: application/json' -d '{"email":"test2@example.com", "password":"1"}' -v https://dashboard.everad.com/v2/session
+curl -X PUT -H 'Content-type: application/json' -d '{"email":"test2@example.com", "password":"1"}' -v https://dashboard.rocketprofit.com/v2/session
 ```
 ######success response
 ```
@@ -48,7 +48,7 @@ curl -X PUT -H 'Content-type: application/json' -d '{"email":"test2@example.com"
 Logout from your account.
 {% sample lang="bash" %}
 ```bash
-curl -X DELETE -v -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' https://dashboard.everad.com/v2/session
+curl -X DELETE -v -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' https://dashboard.rocketprofit.com/v2/session
 ```
 ######success response
 ```
@@ -61,7 +61,7 @@ curl -X DELETE -v -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3D
 Remind password
 {% sample lang="bash" %}
 ```bash
-curl -X POST -v -H 'Content-type: application/json' -d '{"email":"test@example.com"} https://dashboard.everad.com/v2/session/password
+curl -X POST -v -H 'Content-type: application/json' -d '{"email":"test@example.com"} https://dashboard.rocketprofit.com/v2/session/password
 ```
 ######success response
 ```

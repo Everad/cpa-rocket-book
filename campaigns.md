@@ -6,7 +6,7 @@ Manage your campaigns.
 Get your campaigns.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' https://dashboard.everad.com/v2/campaigns
+curl -X GET -v -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' https://dashboard.rocketprofit.com/v2/campaigns
 ```
 ######success response
 ```
@@ -52,7 +52,7 @@ curl -X GET -v -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A
 Get a campaign by id.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' https://dashboard.everad.com/v2/campaigns/1
+curl -X GET -v -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' https://dashboard.rocketprofit.com/v2/campaigns/1
 ```
 ######success response
 ```
@@ -99,7 +99,7 @@ landings_snippets_codes: {
 
 {% sample lang="bash" %}
 ```bash
-curl -X POST -v -H 'Content-type: application/json' -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -d '{"offer_id": 1, "landing_domain": "google.com", "landing_domain_type": "external", "domains": [{"id": 1}], "adv_system": "other", "currency": "usd"}' https://dashboard.everad.com/v2/campaigns
+curl -X POST -v -H 'Content-type: application/json' -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -d '{"offer_id": 1, "landing_domain": "google.com", "landing_domain_type": "external", "domains": [{"id": 1}], "adv_system": "other", "currency": "usd"}' https://dashboard.rocketprofit.com/v2/campaigns
 ```
 ######success response
 ```
@@ -111,7 +111,7 @@ curl -X POST -v -H 'Content-type: application/json' -b 'cpa_sid=s%3AL7xQwNemYqil
 Update an existing campaign. Input fields are the same as when creating a new campaign.
 {% sample lang="bash" %}
 ```bash
-curl -X PUT -v -H 'Content-type: application/json' -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -d '{"offer_id": 1, "landing_domain": "google.com", "landing_domain_type": "external"}' https://dashboard.everad.com/v2/campaigns/1
+curl -X PUT -v -H 'Content-type: application/json' -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' -d '{"offer_id": 1, "landing_domain": "google.com", "landing_domain_type": "external"}' https://dashboard.rocketprofit.com/v2/campaigns/1
 ```
 ######success response
 ```
@@ -123,7 +123,7 @@ curl -X PUT -v -H 'Content-type: application/json' -b 'cpa_sid=s%3AL7xQwNemYqilw
 Remove a campaign.
 {% sample lang="bash" %}
 ```bash
-curl -X DELETE -v -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' https://dashboard.everad.com/v2/campaigns/1
+curl -X DELETE -v -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3Dw6A2ze7Z9phswc%2FHIKqGYZ4YJyLYE0' https://dashboard.rocketprofit.com/v2/campaigns/1
 ```
 ######success response
 ```
@@ -135,7 +135,7 @@ curl -X DELETE -v -b 'cpa_sid=s%3AL7xQwNemYqilwERqH8tswYKfk6XfqcaC.P4qkrt3mUix3D
 Retrieve split sessions list for specified campaign.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/lists/split-sessions/1
+curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/split-sessions/1
 ```
 ######success response
 ```
@@ -159,7 +159,7 @@ curl -X GET -v https://dashboard.everad.com/v2/lists/split-sessions/1
 Retrieve postback logs for specified campaign.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.everad.com/v2/campaigns/1/postback-log
+curl -X GET -v https://dashboard.rocketprofit.com/v2/campaigns/1/postback-log
 ```
 ######success response
 ```
