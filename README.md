@@ -1,4 +1,4 @@
-# RocketProfit CPA v2 Dashboard API
+# RocketProfit CPA Dashboard API
 
 This describes the **API** for managing your affiliate account inside RocketProfit** CPA** application.
 
