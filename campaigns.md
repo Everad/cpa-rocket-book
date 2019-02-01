@@ -159,7 +159,7 @@ curl -X GET -v https://dashboard.rocketprofit.com/v2/lists/split-sessions/1
 Retrieve postback logs for specified campaign.
 {% sample lang="bash" %}
 ```bash
-curl -X GET -v https://dashboard.rocketprofit.com/v2/campaigns/1/postback-log
+curl -X GET -v https://dashboard.rocketprofit.com/v2/campaigns/1/postback-log/limit=0&offset=1
 ```
 ######success response
 ```

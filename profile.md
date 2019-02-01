@@ -183,7 +183,14 @@ curl -X GET -b 'cpa_sid=s%3AZ7vljuUpdxc4dYVpKIaSkne_18SkDvjm.WQwobn6eVQ%2BNOo%2F
 {
   "global_postback_url": "test.com",
   "global_postback_type": "approve",
-  "global_postback_ignore_trash": true
+  "global_postback_ignore_trash": false,
+  "additional_postbacks": [
+    {
+      "global_postback_url": "test2.com",
+      "global_postback_type": "pending",
+      "global_postback_ignore_trash": false
+    }
+  ]
 }
 ```
 {% endmethod %}
@@ -192,7 +199,7 @@ curl -X GET -b 'cpa_sid=s%3AZ7vljuUpdxc4dYVpKIaSkne_18SkDvjm.WQwobn6eVQ%2BNOo%2F
 Update profile global postback settings.
 {% sample lang="bash" %}
 ```bash
-curl -X PUT -H 'Content-type: application/json' -b 'cpa_sid=s%3AZ7vljuUpdxc4dYVpKIaSkne_18SkDvjm.WQwobn6eVQ%2BNOo%2FOtmocjGRm8HZcQxw9c2W9ncpa7RM' -d '{ "global_postback_url": "test.com", "global_postback_type": "approve", "global_postback_ignore_trash": true }' -v https://dashboard.rocketprofit.com/v2/profile/global-postback
+curl -X PUT -H 'Content-type: application/json' -b 'cpa_sid=s%3AZ7vljuUpdxc4dYVpKIaSkne_18SkDvjm.WQwobn6eVQ%2BNOo%2FOtmocjGRm8HZcQxw9c2W9ncpa7RM' -d '{ "global_postback_url": "test.com", "global_postback_type": "approve", "global_postback_ignore_trash": true, "additional_postbacks": [ { "global_postback_url": "test2.com", "global_postback_type": "pending", "global_postback_ignore_trash": false } ] }' -v https://dashboard.rocketprofit.com/v2/profile/global-postback
 ```
 ######success response
 ```
